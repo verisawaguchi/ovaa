@@ -1,4 +1,8 @@
 name: Leaked Secrets Scan
+
+permissions:
+  contents: read
+
 on: [pull_request, push]
 jobs:
   TruffleHog:
