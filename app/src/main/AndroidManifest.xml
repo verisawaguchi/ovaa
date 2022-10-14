@@ -43,9 +43,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
-        <service>
-            android:name=".services.InsecureLoggerService"
-            android:exported="false"
+        <service android:name=".services.InsecureLoggerService">
             <intent-filter>
                 <action android:name="oversecured.ovaa.action.DUMP" />
             </intent-filter>
