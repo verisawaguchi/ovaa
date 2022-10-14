@@ -2,4 +2,5 @@
     <string name="app_name">Oversecured Vulnerable Android App</string>
     <string name="login_url">http://example.com./</string>
     <string name="test_url">https://adm1n:passw0rd@dev.victim.com</string>
+    <string name="aws_access_key">aagfuiyagyusda</string>
 </resources>
